@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-08-17T14:41:28.520Z",
+    "end": "2020-08-17T14:41:42.147Z",
+    "duration": 13627,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4bfa2588-3318-4c16-a414-4d02552fe8c1",
+      "title": "",
+      "fullFile": "cypress\\integration\\uploadAndDownload.spec.js",
+      "file": "cypress\\integration\\uploadAndDownload.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "90b3fb6d-33c6-4949-8754-d46bafad4a7f",
+          "title": "File upload and download tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Upload file and download it in Zip format",
+              "fullTitle": "File upload and download tests Upload file and download it in Zip format",
+              "timedOut": null,
+              "duration": 5584,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#fileField').attachFile('procedure.png');\ncy.contains('This bin contains 1 file').should('be.visible');\ncy.get('.fa-cloud-download').click();\ncy.contains('Zip').invoke('attr', 'href').then(function (downloadLink) {\n  cy.log(downloadLink);\n  cy.downloadFile(downloadLink, 'mydownloads/zipFiles', 'downloadedFromCypress.zip');\n  cy.readFile('mydownloads/zipFiles/downloadedFromCypress.zip');\n});",
+              "err": {},
+              "uuid": "50fae25e-c67b-4e33-b727-6eb1c88e021b",
+              "parentUUID": "90b3fb6d-33c6-4949-8754-d46bafad4a7f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Upload file and download it in Tar format",
+              "fullTitle": "File upload and download tests Upload file and download it in Tar format",
+              "timedOut": null,
+              "duration": 2756,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#fileField').attachFile('procedure.png');\ncy.contains('This bin contains 1 file').should('be.visible');\ncy.get('.fa-cloud-download').click();\ncy.contains('Tar').invoke('attr', 'href').then(function (downloadLink) {\n  cy.log(downloadLink);\n  cy.downloadFile(downloadLink, 'mydownloads/tarFiles', 'downloadedFromCypress.tar');\n  cy.readFile('mydownloads/tarFiles/downloadedFromCypress.tar');\n});",
+              "err": {},
+              "uuid": "a60eecc4-9968-4e20-a8cf-4e856b2c8dde",
+              "parentUUID": "90b3fb6d-33c6-4949-8754-d46bafad4a7f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "50fae25e-c67b-4e33-b727-6eb1c88e021b",
+            "a60eecc4-9968-4e20-a8cf-4e856b2c8dde"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8340,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

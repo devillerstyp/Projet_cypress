@@ -1,0 +1,67 @@
+    {
+        "url": "https://www.younited-credit.com",
+
+        "landingStep": {
+            "projectSelect": "HITECH",
+            "amount": "10K",
+            "creditMaturity": "M12"
+        },
+        "identityStep": {
+            "gender": "#GENDERCODE_M",
+            "maritalStatus": "SINGLE",
+            "childNumber": "0",
+            "lastName": "STYP",
+            "firstName": "Belgrand",
+            "dateOfBirthDay": "15",
+            "dateOfBirthMouth": "03",
+            "dateOfBirthYear": "1991",
+            "address": "3 Allée des trois Martyrs",
+            "postalCode": "33140",
+            "city": "CADAUJAC",
+            "countryZone": "FR",
+            "email": "styp7@yopmail.com",
+            "cellPhoneNumber": "0665951351",
+            "phoneNumber": "0565155195",
+            "insurance_subscribers": "NO"
+        },
+        "activityStep": {
+            "activitySector": "INDEPENDENT",
+            "profession": "FREELANCE",
+            "businessActivityStartDateMouth": "10",
+            "businessActivityStartDateYear": "2017"
+             
+        },
+        "houseStep": {
+            "mainIncome": "2800",
+            "housingStatus": "TENANT",
+            "housingStatusMouth": "05",
+            "housingStatusYear": "2018",
+            "housingAssistance": "280",
+            "additionalIncome": "0",
+            "rentAmount": "780",
+            "loanCount": "1",
+            "loanAmount": "500",
+            "typeCredit": "OTHER"
+        },
+        "bankStep": {
+            "bankCode": "BANQUE_POSTALE",
+            "bankFromYear": "2012"
+        },
+        "activityStatus": {
+            "isIndependent": true,
+            "isSalarie": false,
+            "isRetired": false
+        },
+        "houseStatus": {
+            "isOwner": false,
+            "isTenant": true,
+            "isOwnerWithCredit": false,
+            "isParent": false,
+            "haveOtherLoan": true
+        },
+        "mariedStatus":{
+            "isMariedOrPaced":false,
+            "isSingle":true
+        }
+
+    }

@@ -1,0 +1,110 @@
+{
+    "url": "https://www.younited-credit.com",
+   
+    "landingStep":{
+        "projectSelect": "RELOCATION",
+        "amount": "5K",
+        "creditMaturity": "M6"
+
+    },
+    
+    "identityStep":{
+        "gender" : "#GENDERCODE_M",
+        "maritalStatus": "MARRIED",
+        "childNumber": "2",
+        "lastName": "Moloce" ,
+        "firstName": "Balou", 
+        "dateOfBirthDay": "15", 
+        "dateOfBirthMouth": "06", 
+        "dateOfBirthYear": "1969", 
+        "address": "25 rue du coq'", 
+        "postalCode": "33400", 
+        "city" : "TALENCE", 
+        "countryZone" : "FR" , 
+        "email" : "baloubi@yopmail.com" , 
+        "cellPhoneNumber" : "0665951351", 
+        "phoneNumber" : "0565135195"
+    },
+
+    "partnerIdentityStep":{
+        "partnerGender": "#GENDERCODE_MME",
+        "partnerLastName": "Talisi",
+        "partnerMaidenName": "Baloubi",
+        "partnerFirstName": "Pierrette",
+        "partnerDateOfBirthDay": "10",
+        "partnerDateOfBirthMouth": "6",
+        "partnerDateOfBirthYear": "1980",
+        "partnerPostalCode": "33700",
+        "partnerCity": "MERIGNAC",
+        "maritalStatus": "MARRIED",
+        "childNumber": "3"
+    },    
+    "houseStep":{
+        "housingStatus" : "HOME_OWNERSHIP_WITH_MORTGAGE", 
+        "housingStatusMouth" : "03",
+        "housingStatusYear" : "2015",
+        "mainIncome": "4500",
+        "coIncome": "1650",
+        "housingAssistance": "0",
+        "additionalIncome": "500",
+        "mortgageAmount": "1000",
+        "childSupportPaymentsAmount": "0",
+        "childCareExpensesAmount": "600",
+        "loanCount": "0",
+        "insurance_subscribers": "YES_YES"
+    },
+    "activityStep": {
+        "activitySector": "PRIVATE_SECTOR",
+        "profession": "ENGINEER",
+        "contractType" : "CDI",
+        "employedFromMonth": "10",
+        "employedFromYear": "2017"
+         
+    },
+    "activityStatus":{
+        "isIndependent" : false,
+        "isSalarie": true,
+        "isRetired": false
+    },
+    "parteneractivityStep":{
+        "partnerActivitySector": "PRIVATE_SECTOR",
+        "partnerProfession": "OFFICE_CLERK",
+        "partnerContractType" : "CDD",
+        "partnerEmployedFromMouth" : "03",
+        "partnerEmployedFromYear" : "2018"
+    },
+    "inOrOutcomesStep":{
+        "mainIncome": "4500",
+        "coIncome": "1650",
+        "housingAssistance": "0",
+        "additionalIncome": "500",
+        "mortgageAmount": "1000",
+        "childSupportPaymentsAmount": "0",
+        "childCareExpensesAmount": "600",
+        "loanCount": "0",
+        "insurance_subscribers": "YES_YES"
+    },
+    "mariedStatus":{
+        "isMariedOrPaced":true,
+        "isSingle":false
+    },
+    "bankStep":{
+        "bankCode" : "CREDIT_AGRICOLE", 
+        "bankFromYear" : "2009"
+
+    },
+    "partnerStatus":{
+        "isPartner":true,
+        "isMaried": true
+    },
+    "houseStatus":{
+        "isOwner":false,
+        "isTenant":false, 
+        "isOwnerWithCredit":true,
+        "isParent":true,
+        "haveOtherLoan":true
+    }
+    
+    
+   
+}
